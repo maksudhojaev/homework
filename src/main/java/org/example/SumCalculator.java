@@ -10,17 +10,14 @@ public class SumCalculator {
         final int START = 1;
         final int END = 1_000_000;
 
-        // Yagona ip bilan hisoblash
         long startTimeSingle = System.currentTimeMillis();
         long singleThreadSum = calculateSumSingleThread(START, END);
         long endTimeSingle = System.currentTimeMillis();
 
-        // 5 ta ip ishlatib hisoblash
         long startTimeMulti = System.currentTimeMillis();
         long multiThreadSum = calculateSumWithThreads(START, END, 5);
         long endTimeMulti = System.currentTimeMillis();
 
-        // Natijalarni chiqarish
         System.out.println("1ta thread bilan hisoblangan yig'indi: " + singleThreadSum);
         System.out.println("1ta thread bilan ishlash vaqti: " + (endTimeSingle - startTimeSingle) + " ms");
 
