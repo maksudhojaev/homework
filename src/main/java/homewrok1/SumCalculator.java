@@ -24,6 +24,7 @@ public class SumCalculator {
         System.out.println("Ko'p thread bilan hisoblangan yig'indi: " + multiThreadSum);
         System.out.println("Ko'p thread bilan ishlash vaqti: " + (endTimeMulti - startTimeMulti) + " ms");
 
+
         System.out.println("Ko'p thread ishlatish usuli tezroq bo'ldi: " + ((endTimeSingle - startTimeSingle) - (endTimeMulti - startTimeMulti)) + " ms");
     }
 
