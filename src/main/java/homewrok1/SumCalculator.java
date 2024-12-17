@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.concurrent.*;
 
 public class SumCalculator {
-
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         final int START  = 1;
         final int END  = 1_000_000;

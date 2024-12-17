@@ -48,7 +48,7 @@ public class SumCalculator {
             }
         }
 
-        // Yig'indini ekranga chiqarish
+
         System.out.println("Total sum of all ranges: " + totalSum);
     }
 }

@@ -12,7 +12,6 @@ class User {
         this.password = password;
         this.zoneId = zoneId;
     }
-
     public String getPhone() {
         return phone;
     }

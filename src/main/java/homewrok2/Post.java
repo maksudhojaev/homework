@@ -15,7 +15,6 @@ class Post {
     public String getTitle() {
         return title;
     }
-
     public ZonedDateTime getDateTime() {
         return dateTime;
     }

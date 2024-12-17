@@ -11,7 +11,6 @@ public class Main {
     private static final String USER_DB = "D:\\pdp\\homework\\src\\main\\java\\homewrok2\\user_db.tx";
     private static final List<Post> posts = new ArrayList<>();
     private static final Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) throws IOException {
         Map<String, User> users = loadUsers();
         initializePosts();

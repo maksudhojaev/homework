@@ -64,7 +64,6 @@ public class RandomWords {
             } else {
                 System.out.println("Noto'g'ri so'z tanlandi.");
             }
-
             checkAndWriteToFile(fileName);
         }
     }
