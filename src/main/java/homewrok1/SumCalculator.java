@@ -1,4 +1,4 @@
-package org.example;
+package homewrok1;
 
 import java.util.ArrayList;
 import java.util.List;
